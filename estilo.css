@@ -1,0 +1,205 @@
+* {Margin-top:0;}
+        
+body{font-family: 'Work Sans', sans-serif;}
+
+h1{font-size: 150px;
+   margin: -55px;
+   color: #3a54b4;}
+
+h2{font-size: 64px;
+   color: #3a54b4;}
+
+h3{font-size: 30px;
+   font-weight: 600;
+   color: #3a54b4;}
+
+h4{color: #3a54b4;
+   font-weight: 600;}      
+   
+p{font-size: 14px;
+  font-weight: 300;
+  margin: 7px; 
+  color: #3a54b4;}
+   
+#fixo{width: 18.5%;
+      height: 55px;
+      font-size: 18.8px;
+      background-color: #3a54b4;
+      position: fixed;
+      bottom: 20px;
+      right: 0px;
+      border-radius: 8px;
+      padding-top: 0.1%;
+      font-weight: 600;}  
+
+.center{text-align: center;}  
+
+header{background-color: #fef7ed;
+       display: flex; align-items: center; 
+       justify-content: space-between;
+       padding-top: 2%;
+       padding-bottom: 2%;
+       position: fixed;
+       width: 100%;
+       margin: 0px;}
+
+#logo{margin-left: 4%; 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-around; 
+      width: 10%;
+      height: 100%;}       
+
+#img0{width: 19%;
+      align-self: center;
+      cursor: pointer;}       
+
+#lucas{display: inline; 
+       font-size: 25px; 
+       font-weight: 700;
+        cursor: pointer ;} 
+
+#laranja{color: #ff887a;}
+
+#laranja:hover{color: #3a54b4;
+               cursor: pointer;}
+
+#opcoes{display: flex; 
+        justify-content: space-around;  
+        width: 45%; 
+        align-items: center;
+        margin-right: 4%;}    
+
+#button0{width: 170px;
+         margin-top: 0px;}    
+
+button{width: 142px; 
+       height: 40px;
+       font-size: 14px;
+       font-weight: 300;
+       background-color: #3a54b4;
+       color: white;
+       border: none;
+       font-family: 'Work Sans', sans-serif;
+       margin-top: 10%;}
+       
+button:hover{background-color: #8896cd;
+             cursor: pointer;}       
+
+#button{width: 184px;
+        margin-left: -53px;
+        margin-top: 0px;}
+       
+#section{width: 100%; 
+         height: 800px; 
+         display: flex; 
+         justify-content: center; 
+         align-items: center; 
+         background-color: #fef7ed;
+         margin-bottom: 5%;}
+
+#inicio{font-size: 31px;
+        font-weight: 300;
+        margin-top: 50px;
+        margin-left: -50px;} 
+        
+#img1{border-radius: 100%; 
+      width: 479px;
+      margin-left: 18%;}        
+       
+#section1{display: flex; 
+          justify-content: center;
+          margin-bottom: 10%;}
+
+#servico{margin-bottom: 5%;}
+
+#section2{display: flex;
+          justify-content: space-around;
+          width: 65%;
+          margin-left: 17.5%;
+          margin-bottom: 8%;}
+          
+#amo{margin-bottom: 5%;}
+
+.fotos{margin-bottom: 7%;}
+
+.diz{margin-bottom: 9%;}
+
+.reserve{text-align:center; 
+         width: 35%;} 
+         
+.animais{width: 28%;
+         margin: 0.5%;}         
+
+footer{text-align: center;
+       background-color: #3a54b4;
+       padding-top: 4%;}
+       
+footer>section>div>h4{margin: 5px;}  
+
+#section3{display: flex;
+          justify-content: space-around;
+          width: 60%;
+          margin-left: 20%;
+          margin-bottom: 3%;}
+
+input{height: 40px;}  
+     
+textarea{width: 54.5%; 
+         height: 123px;
+         margin-bottom: 0.7%;}
+
+input, textarea{border-bottom: solid 1px rgb(255, 255, 255);
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background-color: #3a54b4;
+      color: white;}
+          
+#img2{border-radius: 100%; 
+      width: 419px;
+      margin-top: 2%;
+      margin-right: 5%;}
+      
+#imgs{width: 230px; 
+      border-radius: 100%;
+      margin-bottom: 3%;}
+
+.img3{width: 11%;
+      margin-left: 8%;
+      cursor: pointer;}
+      
+#img4{width: 11%;
+      cursor: pointer;}      
+
+input:hover{border-color: #1a2df3;}  
+
+textarea:hover{border-color: #1a2df3;} 
+
+input::placeholder{font-size: 15px;font-family: 'Work Sans', sans-serif;font-weight: 300;
+color: white;}
+   
+.email{width: 27%;
+       margin-bottom: 1%;}    
+
+#assunto{width: 54.5%;
+         margin-bottom: 2%;}
+
+textarea::placeholder{font-size: 15px;font-family: 'Work Sans', sans-serif;font-weight: 300;
+color: white;}
+
+#submit{width: 54.5%; 
+        border-bottom: none;}
+
+#submit:hover{background-color: #8896cd;
+              cursor: pointer;}
+
+#section4{display: flex; 
+          justify-content: space-around; 
+          align-items: center; 
+          width: 40%; 
+          margin-left: 18%;}
+   
+#redes{width: 40%;}          
+
+.branco{color: white;}
